@@ -3,6 +3,13 @@
     padding: 0;
     border: 0;
 }
+
+/* Borrar */
+h1{
+    color: white;
+}
+
+
 body{
     background-color: black;
 }
