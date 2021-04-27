@@ -3,9 +3,6 @@
     padding: 0;
     border: 0;
 }
-body{
-    background-color: black;
-}
 
 .burger i{
     color: green;
@@ -13,14 +10,37 @@ body{
     padding-top: 20px;
     cursor: pointer;
     font-size: 40px;
+    position: fixed;
+    z-index: 1;
+    opacity: 1;
+    width: 100vw;
+}
+.cross i{
+    color: green;
+    padding-left: 160px;
+    padding-top: 20px;
+    cursor: pointer;
+    font-size: 40px;
+    position: relative;
+}
+
+.navbar{
+    left: -600px;
+    position: fixed;
+    transition: all 0.5s;
+}
+
+.change{
+    left: 0;
 }
 
 nav{
     background-color: green;
     height: 300px;
     width: 150px;
-    border-radius: 0 0 25px 0;
-    visibility: hidden;
+    border-radius: 0 25px 25px 0;
+    position: fixed;
+    top: 70px;
 }
 
 ul{
@@ -44,7 +64,7 @@ li:hover{
 
 
 .contenedor{
-    height: 300px;
+    height: 800px;
     text-align: center;
 }
 
@@ -54,7 +74,7 @@ li:hover{
     height: 50px;
     background-color: transparent;
     border-radius: 25px;
-    color: white;
+    color: black;
     text-transform: uppercase;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 2px;
@@ -65,4 +85,5 @@ li:hover{
 .boton:hover{
     letter-spacing: 3px;
     background-color: green;
+    color: white;
 }
