@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth; 
+}
 *{
     margin: 0;
     padding: 0;
@@ -5,23 +8,14 @@
 }
 
 .burger i{
-    color: green;
-    padding-left: 20px;
-    padding-top: 20px;
+    color: rgb(7, 116, 21);
     cursor: pointer;
     font-size: 40px;
     position: fixed;
+    top: 10px;
+    left: 20px;
     z-index: 1;
     opacity: 1;
-    width: 100vw;
-}
-.cross i{
-    color: green;
-    padding-left: 160px;
-    padding-top: 20px;
-    cursor: pointer;
-    font-size: 40px;
-    position: relative;
 }
 
 .navbar{
@@ -35,12 +29,14 @@
 }
 
 nav{
-    background-color: green;
+    background-color: rgb(39, 161, 55);
     height: 300px;
     width: 150px;
     border-radius: 0 25px 25px 0;
     position: fixed;
     top: 70px;
+    box-shadow: 0 5px 5px 0 black;
+    z-index: 1;
 }
 
 ul{
@@ -60,6 +56,205 @@ li{
 
 li:hover{
     background-color: rgb(54, 133, 54);
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+}
+
+.contenedorTitulos{
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+.tituloPrincipal{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    color:  rgb(207, 207, 207);
+}
+
+.tituloSecundario{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.verdeImportante{
+    color: #dce775;
+    font-weight: 900;
+}
+
+.rojoImportante{
+    color: red;
+    font-weight: 900;
+}
+
+.contenedorImagen{
+    text-align: center;
+    position: relative;
+    top: 265px;
+
+}
+
+.seccionDos{
+    background-color: rgb(57, 181, 74);
+    height: 1200px;
+    position: relative;
+    top: 260px;
+    width: 100%;
+}
+
+.contenedorTituloSeccionDos{
+    position: absolute;
+    top: 50px;
+    left: 780px;
+}
+
+.tituloseccionDos{
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.contenedortextoSeccionDos{
+    width: 700px; 
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+
+.textoSeccionDos{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 5px;
+    text-align: justify;
+}
+
+.contenedorimagenSeccionDos{
+    position: absolute;
+    left: 1200px;
+    top: 200px;
+}
+
+.imagenSeccionDos{
+    height: 400px;
+    width: 400px;
+}
+
+.contenedorimagenSeccionDosimgDos{
+    position: absolute;
+    bottom:100px;
+    left: 300px;
+} 
+
+
+.contenedortextoSeccionDostxtDos{
+    width: 700px; 
+    position: absolute;
+    bottom: 200px;
+    left: 1000px;
+}
+
+.seccionContacto{
+    height: 900px;
+    position: relative;
+}
+
+.contenedorTituloSeccionContacto{
+    position: absolute;
+    top: 300px;
+    left: 650px;
+}
+
+.tituloseccionContacto{
+    color: rgb(57, 181, 74);
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.imagenSeccionContacto{
+    border-radius: 50%;
+    background-color: rgb(57, 181, 74);
+    height: 250px;
+    width: 250px;
+}
+
+.uno{
+    position: relative;
+    left: 400px;
+    top: 500px;
+}
+
+.dos{
+    position: relative;
+    left: 1150px;
+    top: 210px; 
+    transform: rotate(-10deg);
+}
+
+.doss{
+    position: relative;
+    left: 1150px;
+    top: 300px; 
+    transform: rotate(0); 
+}
+
+.nombreUno{
+    position: relative;
+    top: 520px;
+    left: 370px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    color: black;
+    letter-spacing: 5px;
+    text-align: justify;
+}
+
+.nombreDos{
+    position: relative;
+    top: 230px;
+    left: 1080px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    color: black;
+    letter-spacing: 5px;
+    text-align: justify;
+}
+
+.fa-whatsapp{
+    color: rgb(57, 181, 74);
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 820px;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    height: 100px;
+}
+
+footer p{
+    position: relative;
+    top: 35px;
 }
 
 

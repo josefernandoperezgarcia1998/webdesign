@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;900&family=Source+Sans+Pro:wght@200;900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -16,15 +21,61 @@
     
     <nav class="navbar">
         <ul>
-            <li>Inicio</li>
-            <li>Produtos</li>
-            <li>Contacto</li>
+            <li><a class="links" href="#inicio">Inicio</a></li>
+            <li><a class="links" href="#seccDos">Misión</a></li>
+            <li><a class="links" href="#seccContacto">Contacto</a></li>
         </ul>
     </nav>
 
-    <div class="contenedor">
-        <button class="boton">Aceptar</button>
+    <div class="contenedorTitulos" id="inicio">
+        <h1 class="tituloPrincipal">Cuidemos el ambiente</h1>
+        <p class="tituloSecundario">¡El mundo lo <span class="verdeImportante">necesita</span>!</p>
     </div>
+
+    <div class="contenedorImagen">
+        <img src="./img/mundoArdboles.png" alt="mundoArboles">
+    </div>
+    
+    <div class="seccionDos" id="seccDos">
+        <div class="contenedorTituloSeccionDos">
+            <p class="tituloseccionDos">MISIÓN</p>
+        </div>
+        <div class="contenedortextoSeccionDos">
+            <p class="textoSeccionDos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis distinctio quis ullam sequi fugiat numquam quaerat impedit quod ab mollitia?</p>
+        </div>
+        <div class="contenedorimagenSeccionDos">
+            <img class="imagenSeccionDos" src="./img/manoArbol.webp" alt="manoArbol">
+        </div>
+        <div class="contenedorimagenSeccionDosimgDos">
+            <img class="imagenSeccionDos" src="./img/arbol.png" alt="manoArbol">
+        </div>
+        <div class="contenedortextoSeccionDostxtDos">
+            <p class="textoSeccionDos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis distinctio quis ullam sequi fugiat numquam quaerat impedit quod ab mollitia?</p>
+        </div>
+    </div>
+
+    <div class="seccionContacto" id="seccContacto">
+        <div class="contenedorTituloSeccionContacto">
+            <p class="tituloseccionContacto">CONTACTO</p>
+        </div>
+        <div class="contenedorContactos">
+            <img class="imagenSeccionContacto uno" src="./img/contactoHombre.png" alt="contactoHombre">
+            <p class="nombreUno">Luis Sanchez Pérez</p>
+            <i class="fab fa-whatsapp uno">961-123-5480</i>
+        </div>
+        <div class="contenedorContactos">
+            <img class="imagenSeccionContacto dos" src="./img/contactoMujer.png" alt="contactoMujer">
+            <p class="nombreDos">Magdalena López Tovilla</p>
+            <i class="fab fa-whatsapp doss">961-123-5480</i>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Hecho con <span class="rojoImportante">♥</span> por JFPG</p>
+    </footer>
+<!--     <div class="contenedor">
+        <button class="boton">Aceptar</button>
+    </div> -->
 <script src="./menu.js"></script>
 </body>
 </html>
